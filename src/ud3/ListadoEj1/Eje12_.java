@@ -13,6 +13,11 @@ public class Eje12_ {
 //		Realiza un algoritmo para determinar cuánto debe pagar por cada concepto 
 //		una persona que realiza una llamada.
 
+		
+		
+		
+		
+		
 	}
 
 }
