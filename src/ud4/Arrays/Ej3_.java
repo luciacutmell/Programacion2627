@@ -6,6 +6,16 @@ public class Ej3_ {
 		// Crea un array de 5 enteros con los valores 2, 4, 6, 8 y 10.
 		// Muestra cada valor en una línea. 
 
+		
+		int valores [] = new int [5]; 
+	
+		for(int i=0;i<valores.length;i++) {
+		
+			System.out.println(valores[i]);
+			
+			
+		}
+		
 	}
 
 }
