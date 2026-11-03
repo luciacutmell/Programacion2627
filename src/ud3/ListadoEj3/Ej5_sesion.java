@@ -1,6 +1,8 @@
 package ud3.ListadoEj3;
 
-public class Ej5_ {
+import java.util.Scanner;
+
+public class Ej5_sesion {
 
 	public static void main(String[] args) {
 //		Crea un programa en Java que muestre en pantalla un menú con las siguientes opciones:
@@ -19,6 +21,44 @@ public class Ej5_ {
 //				v. Si introduce un número que no está entre 1 y 4, 
 //				mostrar: "Opción no válida". 
 
+		Scanner entrada=new Scanner(System.in);
+		int opcion=4;
+		
+		
+		
+		System.out.println("--- MENÚ PRINCIPAL ---");
+		System.out.println("1. Iniciar sesión");
+		System.out.println("2. Registrarse");
+		System.out.println("3. Recuperar contraseña");
+		System.out.println("4. Salir");
+		
+		System.out.print("Escoge la opción: ");
+		opcion=entrada.nextInt();
+		
+		
+		switch(opcion) {
+		case 1:
+			System.out.println("Has elegido iniciar sesión");
+		break;
+		
+		case 2:
+			System.out.println("Has elegido registrarte");
+		break;
+		
+		case 3:
+			System.out.println("Has elegido Recuperar contraseña");
+		break;
+		
+		case 4:
+			System.out.println("Saliendo del programa");
+		break;
+		
+		default:
+			System.out.println("Opción no válida");
+		}
+		
+		
+		entrada.close();
 	}
 
 }

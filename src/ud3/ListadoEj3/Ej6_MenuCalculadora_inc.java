@@ -2,7 +2,7 @@ package ud3.ListadoEj3;
 
 import java.util.Scanner;
 
-public class Ej6_MenuCalculadora {
+public class Ej6_MenuCalculadora_inc {
 
 	public static void main(String[] args) {
 //		Desarrolla un programa en Java que permita realizar diferentes operaciones
@@ -47,6 +47,19 @@ public class Ej6_MenuCalculadora {
 		
 		int opcion = 0, num1, num2, mayor, menor; 
 		double resultado;
+		
+		
+		System.out.println("========= CALCULADORA =========");
+		System.out.println("1. Sumar");
+		System.out.println("2. Restar");
+		System.out.println("3. Multiplicar");
+		System.out.println("4. Dividir");
+		System.out.println("5. Calcular potencia");
+		System.out.println("0. Salir");
+
+		System.out.println();
+		System.out.println("Indica la opción:");
+		opcion=entrada.nextInt();
 		
 		switch (opcion) {
 //		Opción 1. Sumar
