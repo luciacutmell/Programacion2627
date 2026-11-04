@@ -10,13 +10,17 @@ public class Ej6_arrayDescendente {
 
 		// inicializamos array valores
 		for (int i = 0; i < numeros.length; i++) {
-			numeros[i] = 10-i;
+			numeros[i] = numeros.length-i;
+			
 		}
 
-		// mostramos los valors
-		for (int i =0; i < numeros.length; i++) {
+
+		// mostramos array valores
+		for (int i = 0; i < numeros.length; i++) {
 			System.out.println(numeros[i]);
+
 		}
+
 	}
 
 }
