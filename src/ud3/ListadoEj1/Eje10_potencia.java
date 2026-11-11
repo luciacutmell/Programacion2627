@@ -26,17 +26,15 @@ public class Eje10_potencia {
 		// EXPONENTE ES 0
 		if (exponente == 0) {
 
-			
-		// EXPONENTE NEGATIVO
+			// EXPONENTE NEGATIVO
 		} else if (exponente < 0) {
 			exponente = exponente * (-1);
 			for (int i = 0; i < exponente; i++) {
 				potencia = potencia * base;
 			}
-			potencia=1/potencia;
+			potencia = 1 / potencia;
 
-
-		// EXPONENTE POSITIVO
+			// EXPONENTE POSITIVO
 		} else {
 			for (int i = 0; i < exponente; i++) {
 				potencia = potencia * base;
@@ -47,3 +45,19 @@ public class Eje10_potencia {
 	}
 
 }
+
+//double base, exponente, potencia=0;
+//
+//System.out.println("-- Calculando la potencia de un número --");
+//System.out.println();
+//System.out.println("Indica la base");
+//base=entrada.nextDouble();
+//System.out.println("Indica el exponente");
+//exponente=entrada.nextDouble();
+//if(exponente==0) {
+//System.out.println("El resultado es : 1");
+//}else if(exponente<0) {
+//exponente=exponente*(-1);
+//System.out.println("Los valores de potencia es: "+potencia+" y el valor del exponente es "+exponente);
+//}else {
+//potencia=base*(exponente);
